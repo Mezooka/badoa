@@ -1,0 +1,427 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    background-color: #000;;
+}
+
+.header{
+   padding-bottom: 150px;
+   
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+    
+}
+
+.header__geolocation {
+    display: flex;
+    max-width: 465px;
+   
+
+
+}
+
+.header__geolocation-img{
+    width:40px;
+    height:40px;
+    margin-top:35px;
+    
+}
+
+.header__geolocation-text{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top:26px;
+}
+
+.header__geolocation-text-top {
+    padding-bottom: 6px;
+
+}
+
+.header__phone {
+    
+    display: flex;
+    
+}
+
+.header__phone-img{
+    width:40px;
+    height:40px;
+    margin-top: 35px;
+    
+    
+}
+
+.header__phone-text{
+    padding-left:15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 31px;
+}
+
+.header__phone-number{
+    color: #fff;    
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header__phone-whatsapp{
+    color: #fff;    
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: right;
+
+}
+
+.header__content{
+    margin-top: 30px;
+    position: relative;
+    min-height: 760px;
+   
+}
+
+.header__bg{
+    position: absolute;
+    overflow: hidden;
+    border-radius: 375px 345px 0px 0px;
+    max-width: 690px;
+    
+    left: 50%;
+    margin-left: -345px;
+    
+}
+
+.header__team{
+    position: absolute;
+    left:0;
+    top:85px;
+    max-width: 260px;;
+}
+
+.header__title{
+    width: 100%;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    position: absolute;
+    left:0;
+    top:332px;
+    display: flex; 
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.header__description{
+    position: absolute;
+    max-width: 400px;
+    left:0;
+    bottom:10px;
+}
+
+.header__btn{
+    position: absolute;
+    padding: 17px 40px 17px 119px;
+    background: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+    line-height: 20px;
+    color: inherit;
+    text-transform: uppercase;
+    left:902px;
+    top:655px;
+    cursor: pointer;
+}
+
+.about {
+    padding-bottom:150px;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title{
+    padding-top: 46px;
+}
+
+.about__content {
+    margin-left: 110px;
+
+}
+
+.about__description{
+    padding-top: 60px;
+    line-height: 31px;
+}
+
+.about__btn{
+    
+    padding: 17px 40px 17px 119px;
+    background: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+    line-height: 20px;
+    color: inherit;
+    text-transform: uppercase;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: 700;
+}
+
+
+.trainers__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    position: relative;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.trainer-one__names{
+    position: absolute;
+    left:0;
+    top:603px;
+    
+    
+}
+
+.name {
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+
+}
+
+.trainer-two__names{
+    position: absolute;
+    left:659px;
+    top:502px;
+    
+    
+}
+
+.trainer__two-description{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-left: 30px;
+    text-transform: none;
+}
+
+.schools{
+    padding-bottom: 150px;
+}
+
+
+
+.school__inner{
+    padding-top: 100px;
+    display: flex;
+   
+    
+}
+
+.image__container{
+    width:25%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width:100%;
+}
+
+.school__image{
+    width:100%
+}
+
+.school__name {
+    position: absolute;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+    text-align:center;
+    
+}
+  
+.timing {
+    padding-bottom: 150px;
+}
+
+.timing__inner{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.timing__card{
+    padding:30px;
+    margin-bottom: 30px;
+     width:410px;
+     height:100%;
+     background-color: #17171A;
+     margin-right:30px;
+ }
+
+ .timing__card:nth-child(3n){
+    margin-right: 0px;
+ }
+
+.card__head{
+   
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.card__title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.card__subtitle{
+   padding-top:20px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    
+}
+
+.card__description{
+   padding-top: 50px;
+   
+}
+
+
+.prices{
+    padding-top: 60px;
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+
+.old-price{
+   
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: line-through;
+    padding-top: 12px;
+}
+
+.new-price {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.price__btn{
+    padding: 17px 93px 17px 138px;
+    background: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+    line-height: 20px;
+    color: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.photos{
+   padding-bottom:150px;
+}
+
+.photos__inner{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photos__image{
+   width:33.333%;
+   padding-right: 30px;
+   margin-bottom: 30px;
+}
+
+.photos__image-link{
+    width:100%;
+    height:100%;
+}
+
+.footer{
+    padding-bottom:150px;
+}
+
+.footer__inner{
+    display:flex;
+}
+
+.footer__about{
+    width:410px;
+   
+}
+
+.footer__about-text{
+   
+}
+
+.link__item {
+    margin-right:44px;
+}
+
+.social__links {
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+.politics{
+    
+}
+
+.navigations{
+    padding-top: 43px;
+}
